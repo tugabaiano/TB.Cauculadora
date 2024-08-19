@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #127a18;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: linear-gradient(to left, #525252, #8f8f8f, #d3d3d3);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator{
+  background-color: #b1eeff;
+  padding: 3vh 3vh 3vh 3vh;
+  border-radius: 1rem;
+  box-shadow: 0 10px 10px 0 #000000;
+}
+
+#display {
+  background-color: #1a1a1a;
+  padding: 15px;
+  border-radius: 0.5rem;
+  text-align: right;
+  height: 5vh;
+  margin: 0.5rem;
+}
+
+.calculatorButtons{
+  width: 4rem;
+  height: 3rem;
+  border: none;
+  margin: 0.3rem;
+  border-radius: 0.5rem;
+  background-color: #000000;
+  box-shadow: 0 4px #148b1a;
+  text-align: center;
+}
+
+.calculatorButtons:active {
+  transform: translateY(0.1vh);
+  box-shadow: 0 2px #127a18;
+}
+
+#cleanDisplay, #deleteDigit, #division, #multiplication, #subtraction, #sum, #result{
+  background-color: #706c6c;
+  color: #2aa830;
+}
+
+#result{
+  height: 6.8rem;
+}
+
+#num0{
+  width: 8.7rem;
+}
